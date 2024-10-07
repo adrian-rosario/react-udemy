@@ -1,6 +1,6 @@
 # react-udemy
 
-React Udemy activities
+React Udemy activities w/ Maximilian Schwarzmüller
 
 `npm install`
 `npm run dev`
@@ -9,3 +9,4 @@ React Udemy activities
 - 02, game, tic-tac-toe
 - 03, investment calculator
 - 04, component styles
+- 05, passing refs and using portals
