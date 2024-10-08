@@ -11,3 +11,4 @@ React Udemy activities w/ Maximilian Schwarzmüller
 - 04, component styles
 - 05, passing refs and using portals
 - 06, prop drlling, using Tailwind styles
+- 07, refactoring -- replacing `useState()` and using `useContext()` with `useReducer()`
