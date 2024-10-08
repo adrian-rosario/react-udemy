@@ -10,3 +10,4 @@ React Udemy activities w/ Maximilian Schwarzmüller
 - 03, investment calculator
 - 04, component styles
 - 05, passing refs and using portals
+- 06, prop drlling, using Tailwind styles
