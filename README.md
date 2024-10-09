@@ -1,6 +1,6 @@
 # react-udemy
 
-React Udemy activities w/ Maximilian Schwarzmüller
+React activities with Udemy, Maximilian Schwarzmüller, React - The Complete Guide 2024 (incl. Next.js, Redux)
 
 `npm install`
 `npm run dev`
@@ -12,3 +12,4 @@ React Udemy activities w/ Maximilian Schwarzmüller
 - 05, passing refs and using portals
 - 06, prop drlling, using Tailwind styles
 - 07, refactoring -- replacing `useState()` and using `useContext()` with `useReducer()`
+- 08, refactoring -- implementing `useEffect()` and its cleanup function, also `useCallback()`
