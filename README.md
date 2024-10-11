@@ -13,3 +13,4 @@ React activities with Udemy, Maximilian Schwarzmüller, React - The Complete Gui
 - 06, prop drlling, using Tailwind styles
 - 07, refactoring -- replacing `useState()` and using `useContext()` with `useReducer()`
 - 08, refactoring -- implementing `useEffect()` and its cleanup function, also `useCallback()`
+- 09, quiz game -- applying timers with `progress` indicator, & techniques with `useEffect()`, `useCallback()`, `useRef()`
