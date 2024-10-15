@@ -15,3 +15,4 @@ React activities with Udemy, Maximilian Schwarzmüller, React - The Complete Gui
 - 08, refactoring -- implementing `useEffect()` and its cleanup function, also `useCallback()`
 - 09, quiz game -- applying timers with `progress` indicator, & techniques with `useEffect()`, `useCallback()`, `useRef()`
 - 10, placepicker -- `fetch()`, `useEffect()`, error dialog, geolocation, Node local backed (run `npm install`, then `node app.js` in a separate terminal window)
+- 11, placepicker refactoring with custom hook `useDataFetch()`, promisifying using `new Promise()` (see `AvailablePlaces.jsx`)
