@@ -1,6 +1,6 @@
 # react-udemy
 
-React activities with Udemy, Maximilian Schwarzmüller, React - The Complete Guide 2024 (incl. Next.js, Redux)
+Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=LEARNNOWPLANS), by Maximilian Schwarzmüller
 
 `npm install`
 `npm run dev`
@@ -17,6 +17,7 @@ React activities with Udemy, Maximilian Schwarzmüller, React - The Complete Gui
 - 10, placepicker -- `fetch()`, `useEffect()`, error dialog, geolocation, Node local backed (run `npm install`, then `node app.js` in a separate terminal window)
 - 11, placepicker refactoring with custom hook `useDataFetch()`[^1], promisifying using `new Promise()`[^2]
 - 12, form validation, refactoring with custom hook -- `useState`[^3], `useRef`[^4], `FormData`[^5], validation `onBlur()`[^6], custom hook `useInput()`[^7]
+- 13, food order app, theory to action -- practical applications of custom hooks `useHttp`, applying `useEffect()`, sharing functions and state with `createContext()`, reusable `Dialog`, and `Error` messaging display
 
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
