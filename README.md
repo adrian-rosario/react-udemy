@@ -18,6 +18,7 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 - 11, placepicker refactoring with custom hook `useDataFetch()`[^1], promisifying using `new Promise()`[^2]
 - 12, form validation, refactoring with custom hook -- `useState`[^3], `useRef`[^4], `FormData`[^5], validation `onBlur()`[^6], custom hook `useInput()`[^7]
 - 13, food order app, theory to action -- practical applications of custom hooks `useHttp`, applying `useEffect()`, sharing functions and state with `createContext()`, reusable `Dialog`, and `Error` messaging display
+- 14, reviewing Redux Tookit -- `configureStore()`, `createSlice()`, `initialState`, `action.payload` for passing values to `reducers`
 
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
