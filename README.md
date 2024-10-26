@@ -19,6 +19,7 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 - 12, form validation, refactoring with custom hook -- `useState`[^3], `useRef`[^4], `FormData`[^5], validation `onBlur()`[^6], custom hook `useInput()`[^7]
 - 13, food order app, theory to action -- practical applications of custom hooks `useHttp`, applying `useEffect()`, sharing functions and state with `createContext()`, reusable `Dialog`, and `Error` messaging display
 - 14, reviewing Redux Tookit -- `configureStore()`, `createSlice()`, `initialState`, `action.payload` for passing values to `reducers`
+- 15, shopping cart -- Redux, implementing http `async` tasks & side effects, sending data to Firebase, action creators; initial attempt and refined approach including fetching stored data
 
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
