@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "title": "A new event",
+      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+      "date": "2024-11-11",
+      "description": "Tips and tricks to help you on your coding journey!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    },
+    {
+      "title": "Another event",
+      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+      "date": "2024-12-12",
+      "description": "Some event!",
+      "id": "a0aa99f0-f044-4255-be97-41e3595b1c5e"
+    }
+  ],
+  "users": []
+}

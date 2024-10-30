@@ -21,6 +21,7 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 - 14, reviewing Redux Tookit -- `configureStore()`, `createSlice()`, `initialState`, `action.payload` for passing values to `reducers`
 - 15, shopping cart -- Redux, implementing http `async` tasks & side effects, sending data to Firebase, action creators; initial attempt and refined approach including fetching stored data
 - 16, router integrations -- `createBrowserRouter`, `Outlet` for surrounding content, `errorElement` for `404` page, `NavLink`, `useNavigate()` for programatic navigation, `useParams()` for values in path; using `loader`, `useNavigation` for accessing `navigation.state === "loading"`, throwing an error `Response` ie. so we can check for `404` or `500`, `useRouteLoaderData()`[^8] when using a common loader w/ child routes, `Form` for sumitting form data, `redirect` on form submission, `useFetcher()`[^9] for triggering an action w/o navigating, `defer()`/`Suspense`/`Await`/`fallback`[^10] to display loading message if there is a delay with backend, using `await` in `defer()`[^10] to control if content should be rendered while data loads
+- 17, authentication -- `useSearchParams()` for using routing to toggle a form mode (`login` vs. `signup` rendering)[^11], displaying errors sent from backend[^12], storing authentication token from backend in local storage[^13], using logout action with route[^14], setting UI based on logged-in status[^15], protecting a route based on logged-in status[^16], log out user after 1 hour (token from backend is only valid for an hour) and clear local token[^17]
 
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
@@ -32,3 +33,10 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^8]: router exercise, `frontend/src/pages/EventDetailUsingLoader.js`
 [^9]: router exercise, `frontend/src/components/NewsletterSignup.js`
 [^10]: router exercise, `frontend/src/pages/EventDetailUsingLoader.js`
+[^11]: authentication, `frontend/src/components/AuthForm.js`
+[^12]: authentication, `frontend/src/pages/Authentication.js`, `frontend/src/components/EventForm.js`
+[^13]: authentication, `frontend/src/pages/Authentication.js`
+[^14]: authentication, `frontend/src/App.js`
+[^15]: authentication, `frontend/src/components/MainNavigation.js`, `frontend/src/components/EventsNavigation.js`, `frontend/src/components/EventItem.js`
+[^16]: authentication, `frontend/src/App.js`, `checkAuthorizationLoader`
+[^17]: authentication, `frontend/src/util/authentication.js`, `frontend/src/pages/Root.js`, `frontend/src/util/tokenActions.js`
