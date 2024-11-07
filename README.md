@@ -43,6 +43,8 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 22 **patterns** &mdash; building an accordion Compound Component [^40], passing a function as a value to the `children` prop in order to use Render Props for a search results component[^41], debouncing example (instead of immediately querying, putting a timeout on a search query...the idea being to give the user time to stop typing)[^42]
 
+- 23 **react-hooks** &mdash; Redux refactoring exercise, first using Context (not meant for high frequency changes), then using a custom hook `useHookStore`[^43], minor tweak using a prop `shouldListen` to minimize reloads if prop values haven't changed[^44]
+
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
 [^3]: validations, `LoginUsingState.jsx`
@@ -85,3 +87,5 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^40]: patterns, `src/components/accordion/Accordion.jsx`, `src/components/AccordionItem.jsx`
 [^41]: patterns, `src/components/search/SearchList.jsx`, `src/App.jsx`
 [^42]: patterns, `src/components/search/SearchList.jsx`
+[^43]: react-hooks, `src/hooks/store.js`, `src/hooks/productsStore.js`, `src/containers/Products.js`, `src/components/Products/ProductItem.js`, `src/containers/Favorites.js`
+[^44]: react-hooks, `src/hooks/store.js`, `src/components/Products/ProductItem.js`
