@@ -41,6 +41,8 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 21 **animating** &mdash; using Framer Motion, exploring `initial={}` `animate={}` and `exit={}`[^33], `whileHover={}`[^34], `staggerChildren`[^35], `<AnimatePresence>` to animate items being removed from the view[^36], `layout` property to combine animations[^37], navigation highlight animation using `layoutId`[^38], `key` to re-trigger transition animation when data changes[^38], parallax/`scrollY` animations[^39]
 
+- 22 **patterns** &mdash; building an accordion Compound Component [^40], passing a function as a value to the `children` prop in order to use Render Props for a search results component[^41], debouncing example (instead of immediately querying, putting a timeout on a search query...the idea being to give the user time to stop typing)[^42]
+
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
 [^3]: validations, `LoginUsingState.jsx`
@@ -80,3 +82,6 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^37]: nextjs, `src/components/ChallengeItem.jsx`
 [^38]: nextjs, `src/components/ChallengeTabs.jsx`
 [^39]: nextjs, `src/pages/Welcome.jsx`
+[^40]: patterns, `src/components/accordion/Accordion.jsx`, `src/components/AccordionItem.jsx`
+[^41]: patterns, `src/components/search/SearchList.jsx`, `src/App.jsx`
+[^42]: patterns, `src/components/search/SearchList.jsx`
