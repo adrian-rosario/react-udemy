@@ -45,7 +45,7 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 23 **react-hooks** &mdash; Redux refactoring exercise, first using Context (not meant for high frequency changes), then using a custom hook `useHookStore`[^43], minor tweak using a prop `shouldListen` to minimize reloads if prop values haven't changed[^44]
 
-- 24 **unit-tests** &mdash; adding validations[^45], using a mock reponse[^46]
+- 24 **unit-tests** &mdash; adding validations[^45], using a mock response[^46]
 
 - 25 **typescript** &mdash; using TypeScript[^47], and Context[^48]
 
