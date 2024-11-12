@@ -47,6 +47,8 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 24 **unit-tests** &mdash; adding validations[^45], using a mock reponse[^46]
 
+- 25 **typescript** &mdash; working with TypeScript[^47] in React, and a version using Context[^48]
+
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
 [^3]: validations, `LoginUsingState.jsx`
@@ -93,3 +95,5 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^44]: react-hooks, `src/hooks/store.js`, `src/components/Products/ProductItem.js`
 [^45]: unit-tests, `01-starting-project/src/App.test.js`, `01-starting-project/src/components/Welcome.test.js`, `01-starting-project/src/components/AsyncExample.test.js`
 [^46]: unit-tests, `src/components/AsyncExample.test.js`
+[^47]: typescript, `/typescript-react`
+[^48]: typescript, `/typescript-react-with-context`
