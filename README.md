@@ -45,6 +45,8 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 23 **react-hooks** &mdash; Redux refactoring exercise, first using Context (not meant for high frequency changes), then using a custom hook `useHookStore`[^43], minor tweak using a prop `shouldListen` to minimize reloads if prop values haven't changed[^44]
 
+- 24 **unit-tests** &mdash; adding validations[^45], using a mock reponse[^46]
+
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
 [^3]: validations, `LoginUsingState.jsx`
@@ -89,3 +91,5 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^42]: patterns, `src/components/search/SearchList.jsx`
 [^43]: react-hooks, `src/hooks/store.js`, `src/hooks/productsStore.js`, `src/containers/Products.js`, `src/components/Products/ProductItem.js`, `src/containers/Favorites.js`
 [^44]: react-hooks, `src/hooks/store.js`, `src/components/Products/ProductItem.js`
+[^45]: unit-tests, `01-starting-project/src/App.test.js`, `01-starting-project/src/components/Welcome.test.js`, `01-starting-project/src/components/AsyncExample.test.js`
+[^46]: unit-tests, `src/components/AsyncExample.test.js`
