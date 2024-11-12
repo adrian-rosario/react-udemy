@@ -47,7 +47,9 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 
 - 24 **unit-tests** &mdash; adding validations[^45], using a mock reponse[^46]
 
-- 25 **typescript** &mdash; working with TypeScript[^47] in React, and a version using Context[^48]
+- 25 **typescript** &mdash; using TypeScript[^47], and Context[^48]
+
+- 26 **nextjs-pages-router** &mdash; using NextJS Page Router features[^49]
 
 [^1]: placepicker, `useDateFetch.js`
 [^2]: placepicker, `AvailablePlaces.jsx`
@@ -97,3 +99,4 @@ Activities with Udemy, [React - The Complete Guide 2024 (incl. Next.js, Redux)](
 [^46]: unit-tests, `src/components/AsyncExample.test.js`
 [^47]: typescript, `/typescript-react`
 [^48]: typescript, `/typescript-react-with-context`
+[^49]: nextjs-pages-router, `/nextjs-pages-router`
